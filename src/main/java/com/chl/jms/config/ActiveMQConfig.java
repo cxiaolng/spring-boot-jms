@@ -10,7 +10,14 @@ import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.support.converter.SimpleMessageConverter;
 import org.springframework.stereotype.Component;
 
-
+/**
+ * 
+ * <p>Title: ActiveMQConfig</p>
+ * <p>Description:配置类 </p>
+ * @author Harry Chang
+ * @Email cxiaolng@qq.com
+ * @date 2016-12-16 13:50:41
+ */
 @Component
 @Configuration
 @Description(value = "ActiveMQ Configuration")

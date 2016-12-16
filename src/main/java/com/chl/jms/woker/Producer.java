@@ -14,6 +14,14 @@ import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Component;
 
+/**
+ * 
+ * <p>Title: Producer</p>
+ * <p>Description: 消息生产者</p>
+ * @author Harry Chang
+ * @Email cxiaolng@qq.com
+ * @date 2016-12-16 13:47:12
+ */
 @Component
 public class Producer {
 

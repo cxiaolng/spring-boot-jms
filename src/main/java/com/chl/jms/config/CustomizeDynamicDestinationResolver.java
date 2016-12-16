@@ -10,6 +10,14 @@ import org.springframework.jms.support.destination.DestinationResolver;
 import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
 
+/**
+ * 
+ * <p>Title: CustomizeDynamicDestinationResolver</p>
+ * <p>Description: 对DestinationResolver进行定制化实现，解决不能根据destinationName动态使用消息模式</p>
+ * @author Harry Chang
+ * @Email cxiaolng@qq.com
+ * @date 2016-12-16 13:48:56
+ */
 @Component
 public class CustomizeDynamicDestinationResolver implements DestinationResolver{
 

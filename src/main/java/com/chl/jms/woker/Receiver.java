@@ -5,6 +5,14 @@ import org.slf4j.LoggerFactory;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
+/**
+ * 
+ * <p>Title: Receiver</p>
+ * <p>Description: 消息消费者</p>
+ * @author Harry Chang
+ * @Email cxiaolng@qq.com
+ * @date 2016-12-16 13:47:52
+ */
 @Component
 public class Receiver {
 	

@@ -10,6 +10,14 @@ import org.springframework.stereotype.Component;
 
 import com.chl.jms.woker.Producer;
 
+/**
+ * 
+ * <p>Title: Task</p>
+ * <p>Description:定时调度 </p>
+ * @author Harry Chang
+ * @Email cxiaolng@qq.com
+ * @date 2016-12-16 13:48:32
+ */
 @Component
 public class Task {
 	
